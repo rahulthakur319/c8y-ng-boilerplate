@@ -1,0 +1,61 @@
+.filter_head {
+  background: #ffffff;
+}
+
+table {
+  background: #ffffff;
+  th {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    min-width: 140px;
+    border-bottom: none !important;
+
+    color: #606f89;
+  
+  }
+  td {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    min-width: 140px;
+    color: #080303;
+  }
+}
+
+.pill {
+  background: rgba(255, 68, 68, 0.15);
+  border-radius: 27px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ff4444;
+}
+
+.dropdown_option {
+  border: 1px solid #ff4444;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.tableFixHead {
+  overflow: auto;
+
+}
+
+.height-420{
+  height: 420px;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  background-color: #FFFFFF;
+  z-index: 1;
+  top: -1px;
+}

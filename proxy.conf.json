@@ -1,0 +1,15 @@
+{
+  "/apps/c8y-ng-boilerplate/**": {
+    "target": "http://localhost:4200/",
+    "pathRewrite": {
+      "^/apps/c8y-ng-boilerplate": ""
+    }
+  },
+
+  "/**!(apps/c8y-ng-boilerplate)/**/*": {
+    "target": "https://enteryourhost.cumulocity.com",
+    "changeOrigin": true,
+    "secure": false,
+    "ws": true
+  }
+}

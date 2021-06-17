@@ -1,0 +1,109 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+  label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #778694;
+  }
+
+  .label-required {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #778694;
+  }
+}
+
+select {
+  outline: none;
+  padding: 10px;
+  border: 2px solid #ebeeff;
+  width: 100%;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  font-family: "Nunito Sans", sans-serif;
+  color: #373643;
+  height: 48px !important;
+}
+
+input,
+textarea {
+  outline: none;
+  padding: 10px;
+  border: 2px solid #ebeeff;
+  width: 100%;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  font-family: "Nunito Sans", sans-serif;
+  color: #373643 !important;
+}
+
+.label-required:after {
+  content: " *";
+  color: red;
+}
+.custom-select:focus {
+  box-shadow: none !important;
+}
+
+input.ng-touched.ng-invalid {
+  border: 1px solid red !important;
+}
+
+select.ng-touched.ng-invalid {
+  border: 1px solid red !important;
+}
+
+input.ng-valid {
+  border: 1px solid #06b106 !important;
+}
+
+select.ng-valid {
+  border: 1px solid #06b106 !important;
+}
+
+.invalid {
+  color: red;
+}
+
+.cancel-button {
+  background: #9aa1a9;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  padding: 8px 23px;
+  color: #ffffff;
+  border: none;
+}
+
+.next-button {
+  background: #ff4444;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  padding: 8px 33px;
+  color: #ffffff;
+  border: none;
+}
+
+select {
+  background-image: linear-gradient(45deg, transparent 50%, #9aa1a9 60%),
+    linear-gradient(135deg, #9aa1a9 40%, transparent 50%) !important;
+  background-position: calc(100% - 21px) 19px, calc(100% - 11px) 19px, 100% 0 !important;
+  background-size: 10px 10px, 10px 10px !important;
+  background-repeat: no-repeat !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+}
+
